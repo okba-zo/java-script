@@ -1,7 +1,9 @@
-let name = "okba zf";
-let age = 22;
-let student = false;
 
-document.getElementById("p1").textContent = "your name is " + name;
-document.getElementById("p2").textContent = "you are " + age + " years old";
-document.getElementById("p3").textContent = "you are a student: " + student;
+let students = 30;
+students += 5;
+students -= 2;
+students *=2;
+students **= 2;
+let extra = students % 2;
+console.log("Number of students:", students);
+console.log("Extra students:", extra);
