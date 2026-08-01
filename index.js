@@ -1,3 +1,5 @@
 let username;
-username = window.prompt("Please enter your username:");
-console.log("Username entered:", username);
+document.getElementById("mybtn").onclick = function(){
+username = document.getElementById("myinput").value;
+document.getElementById("greet").textContent = "Hello " + username;
+}
